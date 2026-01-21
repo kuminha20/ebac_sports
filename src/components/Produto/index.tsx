@@ -1,5 +1,5 @@
-import { Produto as ProdutoType } from '../../App'
 import * as S from './styles'
+import type { Produto as ProdutoType } from '../../redux/services/api'
 
 type Props = {
   produto: ProdutoType
